@@ -86,12 +86,12 @@ class TestPermissionPolicy implements PermissionPolicy {
       return createCatalogConditionalDecision(
         request.permission,
 -       catalogConditions.isEntityOwner(
--         user?.identity.ownershipEntityRefs ?? [],
+-         { claims: user?.identity.ownershipEntityRefs ?? [] },
 -       ),
 +       {
 +         anyOf: [
 +           catalogConditions.isEntityOwner(
-+             user?.identity.ownershipEntityRefs ?? []
++             { claims: user?.identity.ownershipEntityRefs ?? [] }
 +           ),
 +           isInSystem('interviewing')
 +         ]
