@@ -175,5 +175,11 @@
     "@backstage/plugin-vault-backend": "0.2.3",
     "@backstage/plugin-xcmetrics": "0.2.30"
   },
-  "changesets": []
+  "changesets": [
+    "big-islands-add",
+    "create-app-1666172883",
+    "curvy-islands-marry",
+    "forty-jokes-lie",
+    "wet-cameras-call"
+  ]
 }

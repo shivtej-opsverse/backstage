@@ -1,5 +1,17 @@
 # @backstage/cli
 
+## 0.20.1-next.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @backstage/cli-common@0.1.10
+  - @backstage/config@1.0.4-next.0
+  - @backstage/config-loader@1.1.6-next.0
+  - @backstage/errors@1.1.3-next.0
+  - @backstage/release-manifests@0.0.6
+  - @backstage/types@1.0.0
+
 ## 0.20.0
 
 ### Minor Changes
